@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\passenger.Core\passenger.Core.csproj" />
+    <ProjectReference Include="..\passenger.DataAccess\passenger.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>
