@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Journey.ApplicationServices.Shared/1.0.0": {
+        "runtime": {
+          "Journey.ApplicationServices.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Journey.ApplicationServices.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

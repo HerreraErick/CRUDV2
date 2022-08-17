@@ -1,4 +1,5 @@
 ﻿using journey.Core;
+using Journey.ApplicationServices.Shared.Journey.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,14 +10,14 @@ namespace journey.ApplicationServices
 {
     public interface IJourneyAppService
     {
-        Task<List<Journey>> GetJourneysAsync();
+        Task<List<journey.Core.Journey>> GetJourneysAsync();
 
-        Task<int> AddJourneyAsync(Journey journey);
+        Task<int> AddJourneyAsync(journey.Core.Journey journey);
 
         Task DeleteJourneyAsync(int journeyId);
 
-        Task<Journey> GetJourneyAsync(int journeyId);
+        Task<journey.Core.Journey> GetJourneyAsync(int journeyId);
 
-        Task EditJourneyAsync(Journey journey);
+        Task EditJourneyAsync(journey.Core.Journey journey);
     }
 }

@@ -1,0 +1,12 @@
+C:\Users\pelon\Documents\Curso .NET\CRUDV2\Passengers.ApplicationServices.Shared\bin\Debug\net6.0\Passengers.ApplicationServices.Shared.deps.json
+C:\Users\pelon\Documents\Curso .NET\CRUDV2\Passengers.ApplicationServices.Shared\bin\Debug\net6.0\Passengers.ApplicationServices.Shared.dll
+C:\Users\pelon\Documents\Curso .NET\CRUDV2\Passengers.ApplicationServices.Shared\bin\Debug\net6.0\Passengers.ApplicationServices.Shared.pdb
+C:\Users\pelon\Documents\Curso .NET\CRUDV2\Passengers.ApplicationServices.Shared\obj\Debug\net6.0\Passengers.ApplicationServices.Shared.csproj.AssemblyReference.cache
+C:\Users\pelon\Documents\Curso .NET\CRUDV2\Passengers.ApplicationServices.Shared\obj\Debug\net6.0\Passengers.ApplicationServices.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pelon\Documents\Curso .NET\CRUDV2\Passengers.ApplicationServices.Shared\obj\Debug\net6.0\Passengers.ApplicationServices.Shared.AssemblyInfoInputs.cache
+C:\Users\pelon\Documents\Curso .NET\CRUDV2\Passengers.ApplicationServices.Shared\obj\Debug\net6.0\Passengers.ApplicationServices.Shared.AssemblyInfo.cs
+C:\Users\pelon\Documents\Curso .NET\CRUDV2\Passengers.ApplicationServices.Shared\obj\Debug\net6.0\Passengers.ApplicationServices.Shared.csproj.CoreCompileInputs.cache
+C:\Users\pelon\Documents\Curso .NET\CRUDV2\Passengers.ApplicationServices.Shared\obj\Debug\net6.0\Passengers.ApplicationServices.Shared.dll
+C:\Users\pelon\Documents\Curso .NET\CRUDV2\Passengers.ApplicationServices.Shared\obj\Debug\net6.0\refint\Passengers.ApplicationServices.Shared.dll
+C:\Users\pelon\Documents\Curso .NET\CRUDV2\Passengers.ApplicationServices.Shared\obj\Debug\net6.0\Passengers.ApplicationServices.Shared.pdb
+C:\Users\pelon\Documents\Curso .NET\CRUDV2\Passengers.ApplicationServices.Shared\obj\Debug\net6.0\ref\Passengers.ApplicationServices.Shared.dll

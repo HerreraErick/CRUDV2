@@ -25,11 +25,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "journey.DataAccess", "journ
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "journey.ApplicationServices", "journey.ApplicationServices\journey.ApplicationServices.csproj", "{E71C2DA0-96DB-4A9B-AD77-0A52B04D9E0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "passenger.DataAccess", "passenger.DataAccess\passenger.DataAccess.csproj", "{BFF087C1-EE31-4002-83D0-2EDD2421051A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "passenger.DataAccess", "passenger.DataAccess\passenger.DataAccess.csproj", "{BFF087C1-EE31-4002-83D0-2EDD2421051A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "passenger.ApplicationServices", "passenger.ApplicationServices\passenger.ApplicationServices.csproj", "{C9BE889D-011D-44C1-8ACC-DE273749C350}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "passenger.ApplicationServices", "passenger.ApplicationServices\passenger.ApplicationServices.csproj", "{C9BE889D-011D-44C1-8ACC-DE273749C350}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "passenger.Api", "passenger.Api\passenger.Api.csproj", "{085138F9-BE6A-4E8B-9566-0B5AC18504F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "passenger.Api", "passenger.Api\passenger.Api.csproj", "{085138F9-BE6A-4E8B-9566-0B5AC18504F2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ticket.Core", "ticket.Core\ticket.Core.csproj", "{BD231FBF-8C50-4CFD-A300-F55D060114E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ticket.DataAccess", "ticket.DataAccess\ticket.DataAccess.csproj", "{72092CDC-F2DA-40C8-AECD-C9797F84393E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Journey.ApplicationServices.Shared", "Journey.ApplicationServices.Shared\Journey.ApplicationServices.Shared.csproj", "{FA68F7F3-CA4F-49B3-9A37-A5335CBEC348}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Passengers.ApplicationServices.Shared", "Passengers.ApplicationServices.Shared\Passengers.ApplicationServices.Shared.csproj", "{6DBEDFCB-44A2-4A6C-9469-3468478CCE94}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +77,22 @@ Global
 		{085138F9-BE6A-4E8B-9566-0B5AC18504F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{085138F9-BE6A-4E8B-9566-0B5AC18504F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{085138F9-BE6A-4E8B-9566-0B5AC18504F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD231FBF-8C50-4CFD-A300-F55D060114E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD231FBF-8C50-4CFD-A300-F55D060114E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD231FBF-8C50-4CFD-A300-F55D060114E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD231FBF-8C50-4CFD-A300-F55D060114E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72092CDC-F2DA-40C8-AECD-C9797F84393E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72092CDC-F2DA-40C8-AECD-C9797F84393E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72092CDC-F2DA-40C8-AECD-C9797F84393E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72092CDC-F2DA-40C8-AECD-C9797F84393E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA68F7F3-CA4F-49B3-9A37-A5335CBEC348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA68F7F3-CA4F-49B3-9A37-A5335CBEC348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA68F7F3-CA4F-49B3-9A37-A5335CBEC348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA68F7F3-CA4F-49B3-9A37-A5335CBEC348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DBEDFCB-44A2-4A6C-9469-3468478CCE94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DBEDFCB-44A2-4A6C-9469-3468478CCE94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DBEDFCB-44A2-4A6C-9469-3468478CCE94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DBEDFCB-44A2-4A6C-9469-3468478CCE94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,6 +111,10 @@ Global
 		{BFF087C1-EE31-4002-83D0-2EDD2421051A} = {C96CC6BD-12B8-4969-8619-750661B51303}
 		{C9BE889D-011D-44C1-8ACC-DE273749C350} = {C96CC6BD-12B8-4969-8619-750661B51303}
 		{085138F9-BE6A-4E8B-9566-0B5AC18504F2} = {C96CC6BD-12B8-4969-8619-750661B51303}
+		{BD231FBF-8C50-4CFD-A300-F55D060114E2} = {A2631843-4ECD-4B30-A003-F50B7F953455}
+		{72092CDC-F2DA-40C8-AECD-C9797F84393E} = {A2631843-4ECD-4B30-A003-F50B7F953455}
+		{FA68F7F3-CA4F-49B3-9A37-A5335CBEC348} = {EA5C3848-CFDC-4B08-AE2F-EF9B57CCB3CB}
+		{6DBEDFCB-44A2-4A6C-9469-3468478CCE94} = {EA5C3848-CFDC-4B08-AE2F-EF9B57CCB3CB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4BECAA93-3112-47A0-A8CC-DA8FC5A0CE5F}
