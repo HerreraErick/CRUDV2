@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj": {}
+    "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj": {
+    "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj",
         "projectName": "Journey.ApplicationServices.Shared",
-        "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj",
+        "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj",
         "packagesPath": "C:\\Users\\pelon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\Journey.ApplicationServices.Shared\\obj\\",
+        "outputPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\Journey.ApplicationServices.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pelon\\AppData\\Roaming\\NuGet\\NuGet.Config",

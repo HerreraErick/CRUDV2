@@ -4097,11 +4097,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\ticket.Core\\ticket.Core.csproj",
+      "projectUniqueName": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\ticket.Core\\ticket.Core.csproj",
       "projectName": "ticket.Core",
-      "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\ticket.Core\\ticket.Core.csproj",
+      "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\ticket.Core\\ticket.Core.csproj",
       "packagesPath": "C:\\Users\\pelon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\ticket.Core\\obj\\",
+      "outputPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\ticket.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pelon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4118,11 +4118,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.Core\\journey.Core.csproj": {
-              "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.Core\\journey.Core.csproj"
+            "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.Core\\journey.Core.csproj": {
+              "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.Core\\journey.Core.csproj"
             },
-            "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\passenger.Core\\passenger.Core.csproj": {
-              "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\passenger.Core\\passenger.Core.csproj"
+            "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\passenger.Core\\passenger.Core.csproj": {
+              "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\passenger.Core\\passenger.Core.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HTxK8RJe1yeEkfPInHoqRDH5NMWidDzgTad4Qo4xib4YCL4GF82MUzjnsDuqqwMgsSumBpc/v1tc1nYvHTpcFw==",
+  "dgSpecHash": "dsloqmCOuzD+WG44P6YUVFqTG7z+6HbXepxMDx3LuP19cxlqd/t++20YZ5di9wkpNY5ViaqFpE2K36SIxeaYWg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj",
+  "projectFilePath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

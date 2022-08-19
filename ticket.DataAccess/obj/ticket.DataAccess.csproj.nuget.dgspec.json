@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\ticket.DataAccess\\ticket.DataAccess.csproj": {}
+    "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\ticket.DataAccess\\ticket.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.Core\\journey.Core.csproj": {
+    "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.Core\\journey.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.Core\\journey.Core.csproj",
+        "projectUniqueName": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.Core\\journey.Core.csproj",
         "projectName": "journey.Core",
-        "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.Core\\journey.Core.csproj",
+        "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.Core\\journey.Core.csproj",
         "packagesPath": "C:\\Users\\pelon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.Core\\obj\\",
+        "outputPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pelon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\passenger.Core\\passenger.Core.csproj": {
+    "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\passenger.Core\\passenger.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\passenger.Core\\passenger.Core.csproj",
+        "projectUniqueName": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\passenger.Core\\passenger.Core.csproj",
         "projectName": "passenger.Core",
-        "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\passenger.Core\\passenger.Core.csproj",
+        "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\passenger.Core\\passenger.Core.csproj",
         "packagesPath": "C:\\Users\\pelon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\passenger.Core\\obj\\",
+        "outputPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\passenger.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pelon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -120,14 +120,14 @@
         }
       }
     },
-    "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\ticket.Core\\ticket.Core.csproj": {
+    "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\ticket.Core\\ticket.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\ticket.Core\\ticket.Core.csproj",
+        "projectUniqueName": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\ticket.Core\\ticket.Core.csproj",
         "projectName": "ticket.Core",
-        "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\ticket.Core\\ticket.Core.csproj",
+        "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\ticket.Core\\ticket.Core.csproj",
         "packagesPath": "C:\\Users\\pelon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\ticket.Core\\obj\\",
+        "outputPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\ticket.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pelon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -144,11 +144,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.Core\\journey.Core.csproj": {
-                "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.Core\\journey.Core.csproj"
+              "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.Core\\journey.Core.csproj": {
+                "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.Core\\journey.Core.csproj"
               },
-              "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\passenger.Core\\passenger.Core.csproj": {
-                "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\passenger.Core\\passenger.Core.csproj"
+              "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\passenger.Core\\passenger.Core.csproj": {
+                "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\passenger.Core\\passenger.Core.csproj"
               }
             }
           }
@@ -182,14 +182,14 @@
         }
       }
     },
-    "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\ticket.DataAccess\\ticket.DataAccess.csproj": {
+    "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\ticket.DataAccess\\ticket.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\ticket.DataAccess\\ticket.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\ticket.DataAccess\\ticket.DataAccess.csproj",
         "projectName": "ticket.DataAccess",
-        "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\ticket.DataAccess\\ticket.DataAccess.csproj",
+        "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\ticket.DataAccess\\ticket.DataAccess.csproj",
         "packagesPath": "C:\\Users\\pelon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\ticket.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\ticket.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pelon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -206,8 +206,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\ticket.Core\\ticket.Core.csproj": {
-                "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\ticket.Core\\ticket.Core.csproj"
+              "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\ticket.Core\\ticket.Core.csproj": {
+                "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\ticket.Core\\ticket.Core.csproj"
               }
             }
           }

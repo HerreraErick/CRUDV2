@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.Api\\journey.Api.csproj": {}
+    "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.Api\\journey.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.Api\\journey.Api.csproj": {
+    "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.Api\\journey.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.Api\\journey.Api.csproj",
+        "projectUniqueName": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.Api\\journey.Api.csproj",
         "projectName": "journey.Api",
-        "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.Api\\journey.Api.csproj",
+        "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.Api\\journey.Api.csproj",
         "packagesPath": "C:\\Users\\pelon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.Api\\obj\\",
+        "outputPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pelon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,14 +28,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.ApplicationServices\\journey.ApplicationServices.csproj": {
-                "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.ApplicationServices\\journey.ApplicationServices.csproj"
+              "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.ApplicationServices\\journey.ApplicationServices.csproj": {
+                "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.ApplicationServices\\journey.ApplicationServices.csproj"
               },
-              "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.Core\\journey.Core.csproj": {
-                "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.Core\\journey.Core.csproj"
+              "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.Core\\journey.Core.csproj": {
+                "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.Core\\journey.Core.csproj"
               },
-              "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.DataAccess\\journey.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.DataAccess\\journey.DataAccess.csproj"
+              "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.DataAccess\\journey.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.DataAccess\\journey.DataAccess.csproj"
               }
             }
           }
@@ -128,14 +128,14 @@
         }
       }
     },
-    "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj": {
+    "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj",
         "projectName": "Journey.ApplicationServices.Shared",
-        "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj",
+        "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj",
         "packagesPath": "C:\\Users\\pelon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\Journey.ApplicationServices.Shared\\obj\\",
+        "outputPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\Journey.ApplicationServices.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pelon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -183,14 +183,14 @@
         }
       }
     },
-    "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.ApplicationServices\\journey.ApplicationServices.csproj": {
+    "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.ApplicationServices\\journey.ApplicationServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.ApplicationServices\\journey.ApplicationServices.csproj",
+        "projectUniqueName": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.ApplicationServices\\journey.ApplicationServices.csproj",
         "projectName": "journey.ApplicationServices",
-        "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.ApplicationServices\\journey.ApplicationServices.csproj",
+        "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.ApplicationServices\\journey.ApplicationServices.csproj",
         "packagesPath": "C:\\Users\\pelon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.ApplicationServices\\obj\\",
+        "outputPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.ApplicationServices\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pelon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -207,14 +207,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj": {
-                "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj"
+              "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj": {
+                "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj"
               },
-              "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.Core\\journey.Core.csproj": {
-                "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.Core\\journey.Core.csproj"
+              "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.Core\\journey.Core.csproj": {
+                "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.Core\\journey.Core.csproj"
               },
-              "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.DataAccess\\journey.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.DataAccess\\journey.DataAccess.csproj"
+              "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.DataAccess\\journey.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.DataAccess\\journey.DataAccess.csproj"
               }
             }
           }
@@ -254,14 +254,14 @@
         }
       }
     },
-    "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.Core\\journey.Core.csproj": {
+    "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.Core\\journey.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.Core\\journey.Core.csproj",
+        "projectUniqueName": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.Core\\journey.Core.csproj",
         "projectName": "journey.Core",
-        "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.Core\\journey.Core.csproj",
+        "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.Core\\journey.Core.csproj",
         "packagesPath": "C:\\Users\\pelon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.Core\\obj\\",
+        "outputPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pelon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -315,14 +315,14 @@
         }
       }
     },
-    "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.DataAccess\\journey.DataAccess.csproj": {
+    "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.DataAccess\\journey.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.DataAccess\\journey.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.DataAccess\\journey.DataAccess.csproj",
         "projectName": "journey.DataAccess",
-        "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.DataAccess\\journey.DataAccess.csproj",
+        "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.DataAccess\\journey.DataAccess.csproj",
         "packagesPath": "C:\\Users\\pelon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pelon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -339,8 +339,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.Core\\journey.Core.csproj": {
-                "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.Core\\journey.Core.csproj"
+              "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.Core\\journey.Core.csproj": {
+                "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.Core\\journey.Core.csproj"
               }
             }
           }
@@ -360,6 +360,10 @@
               "version": "[6.0.8, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[6.0.8, )"
             },

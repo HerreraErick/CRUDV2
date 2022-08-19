@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0WukOXzkIljCwwJmMEcSFQxQn9Luy8Y7A2FYu4D4CuNRrhsiz+4utofKndqP8+8OS2nOtDX9/9UaQshtxdnkkQ==",
+  "dgSpecHash": "BHNY+qEovjvn/3E3eG2Us/kTmddtGc/9jSR0/yg9DZ6/Azr56ivV5+x9ECKFXjM/MIzXyuu9j49Xq3aWFlVNmA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\Passengers.ApplicationServices.Shared\\Passengers.ApplicationServices.Shared.csproj",
+  "projectFilePath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\Passengers.ApplicationServices.Shared\\Passengers.ApplicationServices.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

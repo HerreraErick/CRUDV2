@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vo4A3TiPhfRTCCtnVvXWE0UcLY3ttHnSIZI22ZoYraUf0iXqhW+37aZbdygwR4n3u8DRuTgSbPfXnmta3nVsvw==",
+  "dgSpecHash": "D+5pp12ilUYtCojB0GDDGuciCOdxJZjFTlcosQRmrPE/XbPk4FFa4qmdPyVoVVEBMggCT0UCCxImKx3SDDTK4A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\passenger.ApplicationServices\\passenger.ApplicationServices.csproj",
+  "projectFilePath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\passenger.ApplicationServices\\passenger.ApplicationServices.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pelon\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\pelon\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "91mqyrr2MNbHbNiJlR8W7PuNXNH9378N3u1hJs61Bb6Bq8/brgKeoUmz2OBroh0OpNQBZ6fiRDmaAd6e/Lzfbg==",
+  "dgSpecHash": "w9S6NhWMoKKBOtpzTwHeHBlA4Pn0WyqgLq9RVvLaPPzh90FmcF6ubUaMidiu7iP8dRBao3Db0D2Dgu2syKxNUg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\passenger.Api\\passenger.Api.csproj",
+  "projectFilePath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\passenger.Api\\passenger.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pelon\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\pelon\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

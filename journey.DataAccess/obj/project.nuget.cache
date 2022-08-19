@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mz6+eCtK4re0P6z23baiclhwkJ0D9nShCdAaA7js/MIz2MAAjGQu+XRPtQFtHCdt8ntgTxidL0PchW900Mhmmg==",
+  "dgSpecHash": "c/LGPsLyRiJZcvCMLFC+KgBupSvK6/PpuSAockdStUc3NLmGlbstWPs06Lbxx3am8ulSnFgtVTwY+/lk42L5rQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.DataAccess\\journey.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.DataAccess\\journey.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pelon\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\pelon\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
@@ -30,6 +30,7 @@
     "C:\\Users\\pelon\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.8\\microsoft.entityframeworkcore.abstractions.6.0.8.nupkg.sha512",
     "C:\\Users\\pelon\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.8\\microsoft.entityframeworkcore.analyzers.6.0.8.nupkg.sha512",
     "C:\\Users\\pelon\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.8\\microsoft.entityframeworkcore.design.6.0.8.nupkg.sha512",
+    "C:\\Users\\pelon\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\6.0.8\\microsoft.entityframeworkcore.inmemory.6.0.8.nupkg.sha512",
     "C:\\Users\\pelon\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.8\\microsoft.entityframeworkcore.relational.6.0.8.nupkg.sha512",
     "C:\\Users\\pelon\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.8\\microsoft.entityframeworkcore.tools.6.0.8.nupkg.sha512",
     "C:\\Users\\pelon\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",

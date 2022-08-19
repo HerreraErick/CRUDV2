@@ -12,12 +12,12 @@ namespace journey.ApplicationServices
     {
         Task<List<journey.Core.Journey>> GetJourneysAsync();
 
-        Task<int> AddJourneyAsync(journey.Core.Journey journey);
+        Task<int> AddJourneyAsync(JourneyAddDto entity);
 
         Task DeleteJourneyAsync(int journeyId);
 
         Task<journey.Core.Journey> GetJourneyAsync(int journeyId);
 
-        Task EditJourneyAsync(journey.Core.Journey journey);
+        Task EditJourneyAsync(int journeyId, JourneyEditDto entity);
     }
 }

@@ -10,15 +10,23 @@ namespace journey.DataAccess
 {
     public class JourneyContext : DbContext
     {
-        protected string connectionString = "server=localhost;port=3306;database=journey;user=root;password=12345678;CharSet=utf8;SslMode=none;Pooling=false;AllowPublicKeyRetrieval=True";
         public JourneyContext()
         {
-
+            
         }
 
         public JourneyContext(DbContextOptions<JourneyContext> options): base(options)
         {
 
+        }
+
+        public JourneyContext GetMemoryContext()
+        {
+            var options = new DbContextOptionsBuilder<JourneyContext>()
+                .UseInMemoryDatabase(databaseName: "InMemoryDatabase")
+                .Options;
+
+            return new JourneyContext(options);
         }
 
         public virtual DbSet<Journey> Journeys { get; set; }

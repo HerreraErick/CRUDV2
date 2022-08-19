@@ -1,25 +1,30 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using passenger.Core;
 using passenger.DataAccess.Repositories;
+using Passengers.ApplicationServices.Shared.Passenger.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AutoMapper;
 
 namespace passenger.ApplicationServices
 {
     public class PassengerAppService : IPassengerAppService
     {
         private readonly IRepository<int, Passenger> _repository;
+        private readonly IMapper _mapper;
 
-        public PassengerAppService(IRepository<int, Passenger> repository)
+        public PassengerAppService(IRepository<int, Passenger> repository, IMapper mapper)
         {
             _repository = repository;
+            _mapper = mapper;
         }
         
-        public async Task<int> AddPassengerAsync(Passenger passenger)
+        public async Task<int> AddPassengerAsync(PassengerAddDto entity)
         {
+            var passenger = _mapper.Map<Passenger>(entity);
             await _repository.AddAsync(passenger);
             return passenger.Id;
         }
@@ -29,9 +34,11 @@ namespace passenger.ApplicationServices
             await _repository.DeleteAsync(passengerId);
         }
 
-        public async Task EditPassenger(Passenger passenger)
+        public async Task EditPassenger(int passengerId, PassengerEditDto entity)
         {
-            await _repository.UpdateAsync(passenger);
+            var passenger = await GetPassengerByIdAsync(passengerId);
+            var update = _mapper.Map<PassengerEditDto, Passenger>(entity, passenger);
+            await _repository.UpdateAsync(update);
         }
 
         public async Task<List<Passenger>> GetPasengersAsync()

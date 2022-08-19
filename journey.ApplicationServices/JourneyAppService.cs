@@ -17,14 +17,19 @@ namespace journey.ApplicationServices
         private readonly IRepository<int, journey.Core.Journey> _repository;
         private readonly IMapper _mapper;
 
+        public JourneyAppService()
+        {
+        }
+
         public JourneyAppService(IRepository<int, journey.Core.Journey> repository, IMapper mapper)
         {
             _repository = repository;
             _mapper = mapper;
         }
 
-        public async Task<int> AddJourneyAsync(journey.Core.Journey journey)
+        public async Task<int> AddJourneyAsync(JourneyAddDto entity)
         {
+            var journey = _mapper.Map<Core.Journey>(entity);
             await _repository.AddAsync(journey);
             return journey.Id;
         }
@@ -34,10 +39,11 @@ namespace journey.ApplicationServices
             await _repository.DeleteAsync(journeyId);
         }
 
-        public async Task EditJourneyAsync(journey.Core.Journey journey)
+        public async Task EditJourneyAsync(int journeyId, JourneyEditDto entity)
         {
-            //var j = _mapper.Map<JourneyEditDto, journey.Core.Journey>(journey);
-            await _repository.UpdateAsync(journey);
+            var journey = await GetJourneyAsync(journeyId);
+            var update = _mapper.Map<JourneyEditDto, journey.Core.Journey>(entity, journey);
+            await _repository.UpdateAsync(update);
         }
 
         public async Task<journey.Core.Journey> GetJourneyAsync(int journeyId)

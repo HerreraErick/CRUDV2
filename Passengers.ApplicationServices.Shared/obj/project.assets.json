@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\Passengers.ApplicationServices.Shared\\Passengers.ApplicationServices.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\Passengers.ApplicationServices.Shared\\Passengers.ApplicationServices.Shared.csproj",
       "projectName": "Passengers.ApplicationServices.Shared",
-      "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\Passengers.ApplicationServices.Shared\\Passengers.ApplicationServices.Shared.csproj",
+      "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\Passengers.ApplicationServices.Shared\\Passengers.ApplicationServices.Shared.csproj",
       "packagesPath": "C:\\Users\\pelon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\Passengers.ApplicationServices.Shared\\obj\\",
+      "outputPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\Passengers.ApplicationServices.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pelon\\AppData\\Roaming\\NuGet\\NuGet.Config",

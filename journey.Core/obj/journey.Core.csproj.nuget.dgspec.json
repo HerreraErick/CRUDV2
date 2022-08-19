@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.Core\\journey.Core.csproj": {}
+    "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.Core\\journey.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.Core\\journey.Core.csproj": {
+    "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.Core\\journey.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.Core\\journey.Core.csproj",
+        "projectUniqueName": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.Core\\journey.Core.csproj",
         "projectName": "journey.Core",
-        "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.Core\\journey.Core.csproj",
+        "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.Core\\journey.Core.csproj",
         "packagesPath": "C:\\Users\\pelon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.Core\\obj\\",
+        "outputPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pelon\\AppData\\Roaming\\NuGet\\NuGet.Config",

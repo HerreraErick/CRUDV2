@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C0ndfzjCHLA8SMTEAxZq2jOTpuC001Hadr9PkcBXWD9FytW0hB7QK0XS1/Le2fAlYjbEh2+9VGJeUBe7+xmyXQ==",
+  "dgSpecHash": "ZGZxuAaqBG+DtIiOkq3Bo3DK1hPRpEZ9+P85I9IzAE+eu22uLtRbDvM4jzbwQIELfyEBr7BUI06W73gJGKtwbQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\journey.Core\\journey.Core.csproj",
+  "projectFilePath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.Core\\journey.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pelon\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\pelon\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

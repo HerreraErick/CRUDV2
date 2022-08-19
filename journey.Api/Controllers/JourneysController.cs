@@ -3,7 +3,6 @@ using journey.ApplicationServices;
 using journey.Core;
 using journey.DataAccess.Migrations;
 using Microsoft.AspNetCore.Mvc;
-using AutoMapper;
 using Journey.ApplicationServices.Shared.Journey.DTOs;
 
 namespace journey.Api.Controllers
@@ -14,13 +13,11 @@ namespace journey.Api.Controllers
     {
         private readonly IJourneyAppService _journeyAppService;
         private readonly ILogger _logger;
-        private readonly IMapper _mapper;
 
-        public JourneysController(IJourneyAppService journeyAppService, ILogger<JourneysController> logger, IMapper mapper)
+        public JourneysController(IJourneyAppService journeyAppService, ILogger<JourneysController> logger)
         {
             _journeyAppService = journeyAppService;
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
-            _mapper = mapper;
         }
 
         [HttpGet]
@@ -54,19 +51,14 @@ namespace journey.Api.Controllers
         [Route("CreateJourney")]
         public async Task<IActionResult> Create(JourneyAddDto entity)
         {
-            /*Journey journey = new Journey
+            if (entity != null)
             {
-                Id = viewModel.Id,
-                DestinationId = viewModel.DestinationId,
-                OriginId = viewModel.OriginId,
-                Departure = viewModel.Departure,
-                Arrival = viewModel.Arrival
-            };*/
-            var j = _mapper.Map<Core.Journey>(entity);
-            await _journeyAppService.AddJourneyAsync(j);
-            _logger.LogInformation("Journey created" + entity);
+                await _journeyAppService.AddJourneyAsync(entity);
+                _logger.LogInformation("Journey created" + entity);
 
-            return Ok(entity);
+                return Ok(entity);
+            }
+            return BadRequest();
         }
 
         [HttpPut]
@@ -76,8 +68,7 @@ namespace journey.Api.Controllers
             var journey = await _journeyAppService.GetJourneyAsync(id);
             if (journey != null)
             {
-                var j = _mapper.Map<JourneyEditDto, Core.Journey>(entity, journey);
-                await _journeyAppService.EditJourneyAsync(j);
+                await _journeyAppService.EditJourneyAsync(id, entity);
                 _logger.LogInformation("Journey updated" + entity);
 
                 return Ok(entity);
@@ -93,7 +84,7 @@ namespace journey.Api.Controllers
             await _journeyAppService.DeleteJourneyAsync(id);
             _logger.LogInformation("Journey deleted");
 
-            return  Ok();
+            return Ok();
         }
     }
 }

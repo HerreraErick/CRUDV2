@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\passenger.ApplicationServices\\passenger.ApplicationServices.csproj": {}
+    "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\passenger.ApplicationServices\\passenger.ApplicationServices.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\passenger.ApplicationServices\\passenger.ApplicationServices.csproj": {
+    "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\passenger.ApplicationServices\\passenger.ApplicationServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\passenger.ApplicationServices\\passenger.ApplicationServices.csproj",
+        "projectUniqueName": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\passenger.ApplicationServices\\passenger.ApplicationServices.csproj",
         "projectName": "passenger.ApplicationServices",
-        "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\passenger.ApplicationServices\\passenger.ApplicationServices.csproj",
+        "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\passenger.ApplicationServices\\passenger.ApplicationServices.csproj",
         "packagesPath": "C:\\Users\\pelon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\passenger.ApplicationServices\\obj\\",
+        "outputPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\passenger.ApplicationServices\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pelon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,14 +28,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\passenger.Core\\passenger.Core.csproj": {
-                "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\passenger.Core\\passenger.Core.csproj"
+              "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\passenger.Core\\passenger.Core.csproj": {
+                "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\passenger.Core\\passenger.Core.csproj"
               },
-              "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\passenger.DataAccess\\passenger.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\passenger.DataAccess\\passenger.DataAccess.csproj"
+              "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\passenger.DataAccess\\passenger.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\passenger.DataAccess\\passenger.DataAccess.csproj"
               },
-              "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\Passengers.ApplicationServices.Shared\\Passengers.ApplicationServices.Shared.csproj": {
-                "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\Passengers.ApplicationServices.Shared\\Passengers.ApplicationServices.Shared.csproj"
+              "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\Passengers.ApplicationServices.Shared\\Passengers.ApplicationServices.Shared.csproj": {
+                "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\Passengers.ApplicationServices.Shared\\Passengers.ApplicationServices.Shared.csproj"
               }
             }
           }
@@ -75,14 +75,14 @@
         }
       }
     },
-    "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\passenger.Core\\passenger.Core.csproj": {
+    "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\passenger.Core\\passenger.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\passenger.Core\\passenger.Core.csproj",
+        "projectUniqueName": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\passenger.Core\\passenger.Core.csproj",
         "projectName": "passenger.Core",
-        "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\passenger.Core\\passenger.Core.csproj",
+        "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\passenger.Core\\passenger.Core.csproj",
         "packagesPath": "C:\\Users\\pelon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\passenger.Core\\obj\\",
+        "outputPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\passenger.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pelon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -130,14 +130,14 @@
         }
       }
     },
-    "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\passenger.DataAccess\\passenger.DataAccess.csproj": {
+    "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\passenger.DataAccess\\passenger.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\passenger.DataAccess\\passenger.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\passenger.DataAccess\\passenger.DataAccess.csproj",
         "projectName": "passenger.DataAccess",
-        "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\passenger.DataAccess\\passenger.DataAccess.csproj",
+        "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\passenger.DataAccess\\passenger.DataAccess.csproj",
         "packagesPath": "C:\\Users\\pelon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\passenger.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\passenger.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pelon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -154,8 +154,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\passenger.Core\\passenger.Core.csproj": {
-                "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\passenger.Core\\passenger.Core.csproj"
+              "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\passenger.Core\\passenger.Core.csproj": {
+                "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\passenger.Core\\passenger.Core.csproj"
               }
             }
           }
@@ -209,14 +209,14 @@
         }
       }
     },
-    "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\Passengers.ApplicationServices.Shared\\Passengers.ApplicationServices.Shared.csproj": {
+    "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\Passengers.ApplicationServices.Shared\\Passengers.ApplicationServices.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\Passengers.ApplicationServices.Shared\\Passengers.ApplicationServices.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\Passengers.ApplicationServices.Shared\\Passengers.ApplicationServices.Shared.csproj",
         "projectName": "Passengers.ApplicationServices.Shared",
-        "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\Passengers.ApplicationServices.Shared\\Passengers.ApplicationServices.Shared.csproj",
+        "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\Passengers.ApplicationServices.Shared\\Passengers.ApplicationServices.Shared.csproj",
         "packagesPath": "C:\\Users\\pelon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\Passengers.ApplicationServices.Shared\\obj\\",
+        "outputPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\Passengers.ApplicationServices.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pelon\\AppData\\Roaming\\NuGet\\NuGet.Config",

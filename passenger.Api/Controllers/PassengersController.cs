@@ -14,13 +14,11 @@ namespace passenger.Api.Controllers
     {
         private readonly IPassengerAppService _passengerAppService;
         private readonly ILogger _logger;
-        private readonly IMapper _mapper;
 
-        public PassengersController(IPassengerAppService passengerAppService, ILogger<PassengersController> logger, IMapper mapper)
+        public PassengersController(IPassengerAppService passengerAppService, ILogger<PassengersController> logger)
         {
             _passengerAppService = passengerAppService;
             _logger = logger ?? throw new ArgumentNullException(nameof(logger)); ;
-            _mapper = mapper;
         }
 
         [HttpGet]
@@ -52,11 +50,14 @@ namespace passenger.Api.Controllers
         [Route("CreatePassenger")]
         public async Task<IActionResult> Create(PassengerAddDto entity)
         {
-            var j = _mapper.Map<Passenger>(entity);
-            await _passengerAppService.AddPassengerAsync(j);
-            _logger.LogInformation("Passenger created" + entity);
+            if(entity != null)
+            {
+                await _passengerAppService.AddPassengerAsync(entity);
+                _logger.LogInformation("Passenger created" + entity);
 
-            return Ok(entity);
+                return Ok(entity);
+            }
+            return BadRequest();
         }
 
         [HttpPut]
@@ -66,8 +67,7 @@ namespace passenger.Api.Controllers
             var passenger = await _passengerAppService.GetPassengerByIdAsync(id);
             if(passenger != null)
             {
-                var j = _mapper.Map<PassengerEditDto, Passenger>(entity, passenger);
-                await _passengerAppService.EditPassenger(j);
+                await _passengerAppService.EditPassenger(id, entity);
                 _logger.LogInformation("Passenger updated" + entity);
 
                 return Ok(entity);

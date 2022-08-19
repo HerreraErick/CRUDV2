@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p0obsIXCYHkSt8+nPhlUsa3M1vNcT33sKfpQM3BgKaD+kBOAdV0rybptXm8pjS26WxQRbSRidjkaqxKkw0IAZw==",
+  "dgSpecHash": "7I2sRX/nQvO7IKYoO1aAhSeiYByHW9PLh/DrNTczsb7cl7EK8liGUxHzxH5ZMRuIjsTv/wUpwLAkUpBqcUgWYA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\ticket.DataAccess\\ticket.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\ticket.DataAccess\\ticket.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pelon\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\pelon\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

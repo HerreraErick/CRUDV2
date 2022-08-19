@@ -10,3 +10,15 @@ C:\Users\pelon\Documents\Curso .NET\CRUDV2\journey.Core\obj\Debug\net6.0\journey
 C:\Users\pelon\Documents\Curso .NET\CRUDV2\journey.Core\obj\Debug\net6.0\refint\journey.Core.dll
 C:\Users\pelon\Documents\Curso .NET\CRUDV2\journey.Core\obj\Debug\net6.0\journey.Core.pdb
 C:\Users\pelon\Documents\Curso .NET\CRUDV2\journey.Core\obj\Debug\net6.0\ref\journey.Core.dll
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\journey.Core\bin\Debug\net6.0\journey.Core.deps.json
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\journey.Core\bin\Debug\net6.0\journey.Core.dll
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\journey.Core\bin\Debug\net6.0\journey.Core.pdb
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\journey.Core\obj\Debug\net6.0\journey.Core.csproj.AssemblyReference.cache
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\journey.Core\obj\Debug\net6.0\journey.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\journey.Core\obj\Debug\net6.0\journey.Core.AssemblyInfoInputs.cache
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\journey.Core\obj\Debug\net6.0\journey.Core.AssemblyInfo.cs
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\journey.Core\obj\Debug\net6.0\journey.Core.csproj.CoreCompileInputs.cache
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\journey.Core\obj\Debug\net6.0\journey.Core.dll
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\journey.Core\obj\Debug\net6.0\refint\journey.Core.dll
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\journey.Core\obj\Debug\net6.0\journey.Core.pdb
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\journey.Core\obj\Debug\net6.0\ref\journey.Core.dll

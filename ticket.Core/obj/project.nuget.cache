@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2Tc9C8AfL/ZoOUykrGkskW85GnyNbtC2zBeGz4BelQC8vdACjyAqXrwMg1tpV/an1YhFM1dZaohzwDEw7duHEQ==",
+  "dgSpecHash": "kIZAQ0mCMTcyS35JFWbKm3HKl6A9JdQJYKL4hn1kxwUuq9Eod3AJwKoCa5SpmoUNkygvS7chTX9w1TvUcRT4Zg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pelon\\Documents\\Curso .NET\\CRUDV2\\ticket.Core\\ticket.Core.csproj",
+  "projectFilePath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\ticket.Core\\ticket.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pelon\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\pelon\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

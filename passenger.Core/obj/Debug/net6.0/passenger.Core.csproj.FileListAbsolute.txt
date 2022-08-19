@@ -10,3 +10,15 @@ C:\Users\pelon\Documents\Curso .NET\CRUDV2\passenger.Core\obj\Debug\net6.0\passe
 C:\Users\pelon\Documents\Curso .NET\CRUDV2\passenger.Core\obj\Debug\net6.0\refint\passenger.Core.dll
 C:\Users\pelon\Documents\Curso .NET\CRUDV2\passenger.Core\obj\Debug\net6.0\passenger.Core.pdb
 C:\Users\pelon\Documents\Curso .NET\CRUDV2\passenger.Core\obj\Debug\net6.0\ref\passenger.Core.dll
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\passenger.Core\bin\Debug\net6.0\passenger.Core.deps.json
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\passenger.Core\bin\Debug\net6.0\passenger.Core.dll
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\passenger.Core\bin\Debug\net6.0\passenger.Core.pdb
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\passenger.Core\obj\Debug\net6.0\passenger.Core.csproj.AssemblyReference.cache
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\passenger.Core\obj\Debug\net6.0\passenger.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\passenger.Core\obj\Debug\net6.0\passenger.Core.AssemblyInfoInputs.cache
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\passenger.Core\obj\Debug\net6.0\passenger.Core.AssemblyInfo.cs
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\passenger.Core\obj\Debug\net6.0\passenger.Core.csproj.CoreCompileInputs.cache
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\passenger.Core\obj\Debug\net6.0\passenger.Core.dll
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\passenger.Core\obj\Debug\net6.0\refint\passenger.Core.dll
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\passenger.Core\obj\Debug\net6.0\passenger.Core.pdb
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\passenger.Core\obj\Debug\net6.0\ref\passenger.Core.dll
