@@ -17,6 +17,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\journey.ApplicationServices\journey.ApplicationServices.csproj" />
+    <ProjectReference Include="..\passenger.ApplicationServices\passenger.ApplicationServices.csproj" />
+    <ProjectReference Include="..\Ticket.ApplicationServices.Shared\Ticket.ApplicationServices.Shared.csproj" />
     <ProjectReference Include="..\ticket.Core\ticket.Core.csproj" />
   </ItemGroup>
 

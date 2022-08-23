@@ -20,7 +20,7 @@ namespace ticket.DataAccess
 
         }
 
-        public virtual DbSet<Ticket> Tickets { get; set; }
+        public virtual DbSet<ticket.Core.Ticket> Tickets { get; set; }
 
     }
 }

@@ -21,14 +21,3 @@ namespace passenger.Core
         public int Age { get; set; }
     }
 }
-
-/*
-Ticket
-[Key]
-public int Id { get; set; }
-
-public int JourneyId { get; set; }
-
-public int PasengerId { get; set; }
-
-public int Seat { get; set; }*/

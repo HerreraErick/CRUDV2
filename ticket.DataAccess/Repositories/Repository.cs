@@ -10,6 +10,8 @@ namespace ticket.DataAccess.Repositories
     {
         private readonly TicketContext _context;
 
+        protected TicketContext Context { get => _context; }
+
         public Repository(TicketContext context)
         {
             _context = context;

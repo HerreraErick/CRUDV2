@@ -1,5 +1,4 @@
-﻿using journey.Core;
-using passenger.Core;
+﻿
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -14,9 +13,9 @@ namespace ticket.Core
         [Key]
         public int Id { get; set; }
 
-        public Journey JourneyId { get; set; }
+        public int JourneyId { get; set; }
 
-        public Passenger PassengerId { get; set; }
+        public int PassengerId { get; set; }
 
         public int Seat { get; set; }
     }

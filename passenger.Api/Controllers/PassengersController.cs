@@ -13,12 +13,12 @@ namespace passenger.Api.Controllers
     public class PassengersController : Controller
     {
         private readonly IPassengerAppService _passengerAppService;
-        private readonly ILogger _logger;
+        private readonly ILogger<PassengersController> _logger;
 
         public PassengersController(IPassengerAppService passengerAppService, ILogger<PassengersController> logger)
         {
             _passengerAppService = passengerAppService;
-            _logger = logger ?? throw new ArgumentNullException(nameof(logger)); ;
+            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
         [HttpGet]
