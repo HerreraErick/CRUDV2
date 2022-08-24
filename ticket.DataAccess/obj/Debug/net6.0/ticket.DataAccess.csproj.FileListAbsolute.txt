@@ -19,3 +19,17 @@ C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\ticket.DataAccess\obj\Debug
 C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\ticket.DataAccess\obj\Debug\net6.0\ticket.DataAccess.pdb
 C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\ticket.DataAccess\obj\Debug\net6.0\ticket.DataAccess.genruntimeconfig.cache
 C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\ticket.DataAccess\obj\Debug\net6.0\ref\ticket.DataAccess.dll
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\ticket.DataAccess\bin\Debug\net6.0\journey.ApplicationServices.dll
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\ticket.DataAccess\bin\Debug\net6.0\Journey.ApplicationServices.Shared.dll
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\ticket.DataAccess\bin\Debug\net6.0\journey.DataAccess.dll
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\ticket.DataAccess\bin\Debug\net6.0\passenger.ApplicationServices.dll
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\ticket.DataAccess\bin\Debug\net6.0\passenger.DataAccess.dll
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\ticket.DataAccess\bin\Debug\net6.0\Passengers.ApplicationServices.Shared.dll
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\ticket.DataAccess\bin\Debug\net6.0\Ticket.ApplicationServices.Shared.dll
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\ticket.DataAccess\bin\Debug\net6.0\journey.ApplicationServices.pdb
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\ticket.DataAccess\bin\Debug\net6.0\passenger.ApplicationServices.pdb
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\ticket.DataAccess\bin\Debug\net6.0\Ticket.ApplicationServices.Shared.pdb
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\ticket.DataAccess\bin\Debug\net6.0\Journey.ApplicationServices.Shared.pdb
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\ticket.DataAccess\bin\Debug\net6.0\journey.DataAccess.pdb
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\ticket.DataAccess\bin\Debug\net6.0\passenger.DataAccess.pdb
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\ticket.DataAccess\bin\Debug\net6.0\Passengers.ApplicationServices.Shared.pdb

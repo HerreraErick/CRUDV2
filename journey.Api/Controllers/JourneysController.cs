@@ -22,48 +22,48 @@ namespace journey.Api.Controllers
 
         [HttpGet]
         [Route("GetAllJourneys")]
-        public async Task<IActionResult> GetAllJourneys()
+        public async Task<bool> GetAllJourneys()
         {
             List<journey.Core.Journey> journey = await _journeyAppService.GetJourneysAsync();
 
             _logger.LogInformation("Total journeys retrieved: " + journey?.Count);
 
-            return Ok(journey);
+            return true;
         }
 
         [HttpGet]
         [Route("GetJourneysById")]
-        public async Task<IActionResult> GetJourneysById(int journeyId)
+        public async Task<bool> GetJourneysById(int journeyId)
         {
 
             journey.Core.Journey journey = await _journeyAppService.GetJourneyAsync(journeyId);
             if(journey != null)
             {
                 _logger.LogInformation("Journey found: " + journey.Id);
-                return Ok(journey);
+                return true;
             }
             _logger.LogInformation("Journey not found");
-            return NotFound();
+            return false;
 
         }
 
         [HttpPost]
         [Route("CreateJourney")]
-        public async Task<IActionResult> Create(JourneyAddDto entity)
+        public async Task<bool> Create(JourneyAddDto entity)
         {
             if (entity != null)
             {
                 await _journeyAppService.AddJourneyAsync(entity);
                 _logger.LogInformation("Journey created" + entity);
 
-                return Ok(entity);
+                return true;
             }
-            return BadRequest();
+            return false;
         }
 
         [HttpPut]
         [Route("EditJourney/{id:int}")]
-        public async Task<IActionResult> EditJourney([FromRoute] int id, JourneyEditDto entity)
+        public async Task<bool> EditJourney([FromRoute] int id, JourneyEditDto entity)
         {
             var journey = await _journeyAppService.GetJourneyAsync(id);
             if (journey != null)
@@ -71,20 +71,20 @@ namespace journey.Api.Controllers
                 await _journeyAppService.EditJourneyAsync(id, entity);
                 _logger.LogInformation("Journey updated" + entity);
 
-                return Ok(entity);
+                return true;
             }
             _logger.LogInformation("Journey not found");
-            return NotFound();
+            return false;
         }
 
         [HttpDelete]
         [Route("Delete/{id:int}")]
-        public async Task<IActionResult> DeleteJourney([FromRoute] int id)
+        public async Task<bool> DeleteJourney([FromRoute] int id)
         {
             await _journeyAppService.DeleteJourneyAsync(id);
             _logger.LogInformation("Journey deleted");
 
-            return Ok();
+            return true;
         }
     }
 }

@@ -460,6 +460,10 @@
               "target": "Package",
               "version": "[6.7.0, )"
             },
+            "Microsoft.AspNetCore.TestHost": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.1.0, )"
@@ -467,6 +471,10 @@
             "Moq": {
               "target": "Package",
               "version": "[4.18.2, )"
+            },
+            "Xunit.Extensions.Ordering": {
+              "target": "Package",
+              "version": "[1.4.5, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

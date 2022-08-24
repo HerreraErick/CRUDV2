@@ -38,29 +38,26 @@ namespace Passenger.UnitTest
 
 
             //Assert
-            Assert.IsType<OkObjectResult>(result);
+            Assert.True(result);
         }
 
         [Fact]
         public async Task EditPassenger()
         {
             //Arranger
-            var id = 2;
-            var existente = _controller.GetPassengerById(id);
-            var okResult = existente.Should().BeOfType<OkObjectResult>().Subject;
-            var result = okResult.Value.Should().BeAssignableTo<PassengerEditDto>().Subject;
-
-            var passenger = new PassengerEditDto();
-            passenger.FirstName = "ZURIA";
-            passenger.LastName = result.LastName;
-            passenger.Age = result.Age;
-
+            var id = 1;
+            PassengerEditDto passenger = new PassengerEditDto()
+            {
+                FirstName = "Zuria",
+                LastName = "Pat",
+                Age = 26
+            };
 
             //Act
             var updateData = await _controller.EditPassenger(id, passenger);
 
             //Assert
-            Assert.IsType<OkObjectResult>(updateData);
+            Assert.True(updateData);
         }
 
         [Fact]
@@ -79,7 +76,7 @@ namespace Passenger.UnitTest
             var result = await _controller.GetPassengerById(p.Id);
 
             //Assert
-            Assert.IsType<OkObjectResult>(result);
+            Assert.True(result);
         }
 
         [Fact]
@@ -92,18 +89,18 @@ namespace Passenger.UnitTest
             var result = await _controller.GetAllPassengers();
 
             //Assert
-            Assert.IsType<OkObjectResult>(result);
+            Assert.True(result);
         }
 
         [Fact]
         public async Task DeletePassenger()
         {
             // Arrange
-            var id = 3;
+            var id = 1;
             // Act
             var result = await _controller.DeletePassenger(id);
             // Assert
-            Assert.IsType<OkResult>(result);
+            Assert.True(result);
         }
 
     }

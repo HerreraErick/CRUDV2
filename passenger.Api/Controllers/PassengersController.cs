@@ -23,46 +23,46 @@ namespace passenger.Api.Controllers
 
         [HttpGet]
         [Route("GetAllPassengers")]
-        public async Task<IActionResult> GetAllPassengers()
+        public async Task<bool> GetAllPassengers()
         {
             List<Passenger> passengers = await _passengerAppService.GetPasengersAsync();
             _logger.LogInformation("Total passengers retrieved: " + passengers?.Count);
 
-            return Ok(passengers);
+            return true;
         }
 
         [HttpGet]
         [Route("GetPassengerById/{id:int}")]
-        public async Task<IActionResult> GetPassengerById([FromRoute] int id)
+        public async Task<bool> GetPassengerById([FromRoute] int id)
         {
             Passenger passenger = await _passengerAppService.GetPassengerByIdAsync(id);
             if(passenger != null)
             {
                 _logger.LogInformation("Passenger found: " + passenger.FirstName);
-                return Ok(passenger);
+                return true;
             }
             _logger.LogInformation("Passenger not found");
-            return NotFound();
+            return false;
             
         }
 
         [HttpPost]
         [Route("CreatePassenger")]
-        public async Task<IActionResult> Create(PassengerAddDto entity)
+        public async Task<bool> Create(PassengerAddDto entity)
         {
             if(entity != null)
             {
                 await _passengerAppService.AddPassengerAsync(entity);
                 _logger.LogInformation("Passenger created" + entity);
 
-                return Ok(entity);
+                return true;
             }
-            return BadRequest();
+            return false;
         }
 
         [HttpPut]
         [Route("EditPassenger/{id:int}")]
-        public async Task<IActionResult> EditPassenger([FromRoute]int id, PassengerEditDto entity)
+        public async Task<bool> EditPassenger([FromRoute]int id, PassengerEditDto entity)
         {
             var passenger = await _passengerAppService.GetPassengerByIdAsync(id);
             if(passenger != null)
@@ -70,21 +70,21 @@ namespace passenger.Api.Controllers
                 await _passengerAppService.EditPassenger(id, entity);
                 _logger.LogInformation("Passenger updated" + entity);
 
-                return Ok(entity);
+                return true;
             }
             _logger.LogInformation("Passenger not found");
-            return NotFound();
+            return false;
             
         }
 
         [HttpDelete]
         [Route("Delete/{id:int}")]
-        public async Task<IActionResult> DeletePassenger([FromRoute]int id)
+        public async Task<bool> DeletePassenger([FromRoute]int id)
         {
             await _passengerAppService.DeletePassengerAsync(id);
             _logger.LogInformation("Passenger deleted");
 
-            return Ok();
+            return true;
         }
     }
 }

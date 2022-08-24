@@ -6,6 +6,9 @@ using journey.DataAccess;
 using Journey.ApplicationServices.Shared.Journey.DTOs;
 using FakeItEasy;
 using FluentAssertions;
+using Microsoft.AspNetCore.TestHost;
+using Microsoft.EntityFrameworkCore.InMemory;
+using Microsoft.EntityFrameworkCore;
 
 namespace Journey.UnitTest
 {
@@ -14,18 +17,15 @@ namespace Journey.UnitTest
         private readonly JourneysController _controller;
         private readonly IJourneyAppService _service;
         private readonly ILogger<JourneysController> _logger;
-        //private readonly JourneyContext _context;
 
         public JourneysTest()
         {
             _logger = A.Fake<ILogger<JourneysController>>();
             _service = A.Fake<IJourneyAppService>();
             _controller = new JourneysController(_service, _logger);
-            //_context = context;
         }
 
-
-       [Fact]
+        [Fact]
         public async Task AddJourney()
         {
             //Arrange
@@ -41,29 +41,30 @@ namespace Journey.UnitTest
             var result = await _controller.Create(journey);
 
             //Assert
-            Assert.IsType<OkObjectResult>(result);
+            Assert.True(result);
         }
 
         [Fact]
         public async Task EditJourney()
         {
             //Arrange
-            var id = 2;
-            var existente = _controller.GetJourneysById(id);
-            var okResult = existente.Should().BeOfType<OkObjectResult>().Subject;
-            var result = okResult.Value.Should().BeAssignableTo<JourneyEditDto>().Subject;
+            var id = 1;
+            JourneyEditDto journey = new JourneyEditDto()
+            {
+                DestinationId = 5,
+                OriginId = 5,
+                Departure = DateTime.Now,
+                Arrival = DateTime.Today
+            };
 
-            var journey = new JourneyEditDto();
-            journey.DestinationId = 2;
-            journey.OriginId = result.OriginId;
-            journey.Departure = result.Departure;
-            journey.Arrival = result.Arrival;
 
             //Act
             var updatedData = await _controller.EditJourney(id, journey);
 
             //Assert
-            Assert.IsType<OkObjectResult>(updatedData);
+            Assert.True(updatedData);
+
+            
         }
 
         [Fact]
@@ -76,7 +77,7 @@ namespace Journey.UnitTest
             var result = await _controller.GetAllJourneys();
 
             //Assert
-            Assert.IsType<OkObjectResult>(result);
+            Assert.True(result);
         }
 
         [Fact]
@@ -96,19 +97,19 @@ namespace Journey.UnitTest
             var result = await _controller.GetJourneysById(j.Id);
 
             //Assert
-            Assert.IsType<OkObjectResult>(result);
+            Assert.True(result);
 
         }
 
         [Fact]
-        public async Task DeleteJourney()
+        public async Task HDeleteJourney()
         {
             // Arrange
-            var id = 3;
+            var id = 1;
             // Act
             var result = await _controller.DeleteJourney(id);
             // Assert
-            Assert.IsType<OkResult>(result);
+            Assert.True(result);
         }
 
     }
