@@ -22,28 +22,24 @@ namespace journey.Api.Controllers
 
         [HttpGet]
         [Route("GetAllJourneys")]
-        public async Task<bool> GetAllJourneys()
+        public async Task<IEnumerable<JourneyDto>> GetAllJourneys()
         {
-            List<journey.Core.Journey> journey = await _journeyAppService.GetJourneysAsync();
+            List<JourneyDto> journeys = await _journeyAppService.GetJourneysAsync();
 
-            _logger.LogInformation("Total journeys retrieved: " + journey?.Count);
+            _logger.LogInformation("Total journeys retrieved: " + journeys?.Count);
 
-            return true;
+            return journeys;
         }
 
         [HttpGet]
         [Route("GetJourneysById")]
-        public async Task<bool> GetJourneysById(int journeyId)
+        public async Task<JourneyDto> GetJourneysById(int journeyId)
         {
 
-            journey.Core.Journey journey = await _journeyAppService.GetJourneyAsync(journeyId);
-            if(journey != null)
-            {
-                _logger.LogInformation("Journey found: " + journey.Id);
-                return true;
-            }
-            _logger.LogInformation("Journey not found");
-            return false;
+            JourneyDto journey = await _journeyAppService.GetJourneyAsync(journeyId);
+            _logger.LogInformation("Journey found: " + journey.Id);
+            return journey;
+
 
         }
 

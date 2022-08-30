@@ -32,6 +32,7 @@ namespace Passenger.UnitTest
                 LastName = "Herrera",
                 Age = 24
             };
+            A.CallTo(() => _service.AddPassengerAsync(passenger));
 
             //Act
             var result = await _controller.Create(passenger);
@@ -52,6 +53,7 @@ namespace Passenger.UnitTest
                 LastName = "Pat",
                 Age = 26
             };
+            A.CallTo(() => _service.EditPassenger(id, passenger)).Returns(Task.FromResult(passenger));
 
             //Act
             var updateData = await _controller.EditPassenger(id, passenger);
@@ -64,41 +66,48 @@ namespace Passenger.UnitTest
         public async Task GetPassenger()
         {
             //Arrange
-            passenger.Core.Passenger p = new passenger.Core.Passenger()
+            PassengerDto p = new PassengerDto()
             {
-                Id = 2,
+                Id = 1,
                 FirstName = "Erick",
                 LastName = "Herrera",
                 Age = 24
             };
+            A.CallTo(() => _service.GetPassengerByIdAsync(p.Id)).Returns(Task.FromResult(p));
 
             //Act
             var result = await _controller.GetPassengerById(p.Id);
 
             //Assert
-            Assert.True(result);
+            Assert.Equal(p.Id, result.Id);
         }
 
         [Fact]
         public async Task GetAllPassengers()
         {
             //Arrage
-
+            var passengers = new List<PassengerDto>() { new PassengerDto { Id = 1 } };
+            A.CallTo(() => _service.GetPasengersAsync()).Returns(Task.FromResult(passengers));
 
             //Act
             var result = await _controller.GetAllPassengers();
 
+            var count1 = result.Count();
+            var count2 = passengers.Count();
+
             //Assert
-            Assert.True(result);
+            Assert.Equal(count2, count1);
         }
 
         [Fact]
-        public async Task DeletePassenger()
+        public async Task HDeletePassenger()
         {
             // Arrange
-            var id = 1;
+            var passenger = new PassengerDto { Id = 1 };
+            A.CallTo(() => _service.DeletePassengerAsync(passenger.Id)).Returns(Task.FromResult(passenger));
+
             // Act
-            var result = await _controller.DeletePassenger(id);
+            var result = await _controller.DeletePassenger(passenger.Id);
             // Assert
             Assert.True(result);
         }

@@ -12,6 +12,7 @@ namespace journey.ApplicationServices.Mapper
     {
         public MapperProfile()
         {
+            CreateMap<journey.Core.Journey, JourneyDto>();
             CreateMap<JourneyAddDto, journey.Core.Journey>();
             CreateMap<JourneyEditDto, journey.Core.Journey>();
         }

@@ -13,6 +13,7 @@ namespace passenger.ApplicationServices.Mapper
     {
         public MapperProfile()
         {
+            CreateMap<Passenger, PassengerDto>();
             CreateMap<PassengerAddDto, Passenger>();
             CreateMap<PassengerEditDto, Passenger>();
         }

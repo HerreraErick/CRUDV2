@@ -36,19 +36,23 @@ namespace passenger.ApplicationServices
 
         public async Task EditPassenger(int passengerId, PassengerEditDto entity)
         {
-            var passenger = await GetPassengerByIdAsync(passengerId);
+            var passenger = await _repository.GetAsync(passengerId);
             var update = _mapper.Map<PassengerEditDto, Passenger>(entity, passenger);
             await _repository.UpdateAsync(update);
         }
 
-        public async Task<List<Passenger>> GetPasengersAsync()
+        public async Task<List<PassengerDto>> GetPasengersAsync()
         {
-            return await _repository.GetAll().ToListAsync();
+            var passengers = await _repository.GetAll().ToListAsync();
+            var list = _mapper.Map<List<PassengerDto>>(passengers);
+            return list;
         }
 
-        public async Task<Passenger> GetPassengerByIdAsync(int passengerId)
+        public async Task<PassengerDto> GetPassengerByIdAsync(int passengerId)
         {
-            return await _repository.GetAsync(passengerId);
+            var entity = await _repository.GetAsync(passengerId);
+            var passenger = _mapper.Map<PassengerDto>(entity);
+            return passenger;
         }
     }
 }

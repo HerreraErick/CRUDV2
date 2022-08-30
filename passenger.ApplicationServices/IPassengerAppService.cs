@@ -10,13 +10,13 @@ namespace passenger.ApplicationServices
 {
     public interface IPassengerAppService
     {
-        Task<List<Passenger>> GetPasengersAsync();
+        Task<List<PassengerDto>> GetPasengersAsync();
 
         Task<int> AddPassengerAsync(PassengerAddDto entity);
 
         Task DeletePassengerAsync(int passengerId);
 
-        Task<Passenger> GetPassengerByIdAsync(int passengerId);
+        Task<PassengerDto> GetPassengerByIdAsync(int passengerId);
 
         Task EditPassenger(int passengerId, PassengerEditDto entity);
     }

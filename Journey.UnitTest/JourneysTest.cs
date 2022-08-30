@@ -36,12 +36,16 @@ namespace Journey.UnitTest
                 Departure = DateTime.Now, 
                 Arrival = DateTime.Today 
             };
+            
+            //var fakeJourney = A.Fake<JourneyAddDto>();
+            A.CallTo(() => _service.AddJourneyAsync(journey));
 
             //Act
             var result = await _controller.Create(journey);
 
             //Assert
             Assert.True(result);
+            //Assert.IsType<OkObjectResult>(result);
         }
 
         [Fact]
@@ -56,6 +60,7 @@ namespace Journey.UnitTest
                 Departure = DateTime.Now,
                 Arrival = DateTime.Today
             };
+            A.CallTo(() => _service.EditJourneyAsync(id, journey)).Returns(Task.FromResult(journey));
 
 
             //Act
@@ -63,28 +68,30 @@ namespace Journey.UnitTest
 
             //Assert
             Assert.True(updatedData);
-
-            
         }
 
         [Fact]
         public async Task GetAllJourney()
         {
             //Arrage
-            
+            var journeys = new List<JourneyDto>() {new JourneyDto {Id = 1}};
+            A.CallTo(() => _service.GetJourneysAsync()).Returns(Task.FromResult(journeys));
 
             //Act
             var result = await _controller.GetAllJourneys();
 
+            var count1 = result.Count();
+            var count2 = journeys.Count();
+
             //Assert
-            Assert.True(result);
+            Assert.Equal(count2, count1);
         }
 
         [Fact]
         public async Task GetById()
         {
             //Arrange
-            journey.Core.Journey j = new journey.Core.Journey()
+            JourneyDto j = new JourneyDto()
             {
                 Id = 1,
                 DestinationId = 1,
@@ -92,12 +99,13 @@ namespace Journey.UnitTest
                 Departure = DateTime.Now,
                 Arrival = DateTime.Today
             };
+            A.CallTo(() => _service.GetJourneyAsync(j.Id)).Returns(Task.FromResult(j));
 
             //Act
             var result = await _controller.GetJourneysById(j.Id);
 
             //Assert
-            Assert.True(result);
+            Assert.Equal(j.Id, result.Id);
 
         }
 
@@ -105,9 +113,10 @@ namespace Journey.UnitTest
         public async Task HDeleteJourney()
         {
             // Arrange
-            var id = 1;
+            var journey = new JourneyDto { Id = 1 } ;
+            A.CallTo(() => _service.DeleteJourneyAsync(journey.Id)).Returns(Task.FromResult(journey));
             // Act
-            var result = await _controller.DeleteJourney(id);
+            var result = await _controller.DeleteJourney(journey.Id);
             // Assert
             Assert.True(result);
         }

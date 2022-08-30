@@ -23,26 +23,22 @@ namespace passenger.Api.Controllers
 
         [HttpGet]
         [Route("GetAllPassengers")]
-        public async Task<bool> GetAllPassengers()
+        public async Task<IEnumerable<PassengerDto>> GetAllPassengers()
         {
-            List<Passenger> passengers = await _passengerAppService.GetPasengersAsync();
+            List<PassengerDto> passengers = await _passengerAppService.GetPasengersAsync();
             _logger.LogInformation("Total passengers retrieved: " + passengers?.Count);
 
-            return true;
+            return passengers;
         }
 
         [HttpGet]
         [Route("GetPassengerById/{id:int}")]
-        public async Task<bool> GetPassengerById([FromRoute] int id)
+        public async Task<PassengerDto> GetPassengerById([FromRoute] int id)
         {
-            Passenger passenger = await _passengerAppService.GetPassengerByIdAsync(id);
-            if(passenger != null)
-            {
-                _logger.LogInformation("Passenger found: " + passenger.FirstName);
-                return true;
-            }
-            _logger.LogInformation("Passenger not found");
-            return false;
+            PassengerDto passenger = await _passengerAppService.GetPassengerByIdAsync(id);
+            _logger.LogInformation("Passenger found: " + passenger.FirstName);
+            return passenger;
+
             
         }
 

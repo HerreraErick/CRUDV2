@@ -10,13 +10,13 @@ namespace journey.ApplicationServices
 {
     public interface IJourneyAppService
     {
-        Task<List<journey.Core.Journey>> GetJourneysAsync();
+        Task<List<JourneyDto>> GetJourneysAsync();
 
         Task<int> AddJourneyAsync(JourneyAddDto entity);
 
         Task DeleteJourneyAsync(int journeyId);
 
-        Task<journey.Core.Journey> GetJourneyAsync(int journeyId);
+        Task<JourneyDto> GetJourneyAsync(int journeyId);
 
         Task EditJourneyAsync(int journeyId, JourneyEditDto entity);
     }

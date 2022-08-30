@@ -17,9 +17,7 @@ namespace journey.ApplicationServices
         private readonly IRepository<int, journey.Core.Journey> _repository;
         private readonly IMapper _mapper;
 
-        public JourneyAppService()
-        {
-        }
+
 
         public JourneyAppService(IRepository<int, journey.Core.Journey> repository, IMapper mapper)
         {
@@ -41,19 +39,23 @@ namespace journey.ApplicationServices
 
         public async Task EditJourneyAsync(int journeyId, JourneyEditDto entity)
         {
-            var journey = await GetJourneyAsync(journeyId);
+            var journey = await _repository.GetAsync(journeyId);
             var update = _mapper.Map<JourneyEditDto, journey.Core.Journey>(entity, journey);
             await _repository.UpdateAsync(update);
         }
 
-        public async Task<journey.Core.Journey> GetJourneyAsync(int journeyId)
+        public async Task<JourneyDto> GetJourneyAsync(int journeyId)
         {
-            return await _repository.GetAsync(journeyId);
+            var getjourney = await _repository.GetAsync(journeyId);
+            var journey = _mapper.Map<JourneyDto>(getjourney);
+            return journey;
         }
 
-        public async Task<List<journey.Core.Journey>> GetJourneysAsync()
+        public async Task<List<JourneyDto>> GetJourneysAsync()
         {
-            return await _repository.GetAll().ToListAsync();
+            var journeys = await _repository.GetAll().ToListAsync();
+            var list = _mapper.Map<List<JourneyDto>>(journeys);
+            return list;
         }
     }
 }
