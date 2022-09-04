@@ -7,8 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\journey.Core\journey.Core.csproj" />
-    <ProjectReference Include="..\passenger.Core\passenger.Core.csproj" />
+    <ProjectReference Include="..\ticket.Core\ticket.Core.csproj" />
   </ItemGroup>
 
 </Project>

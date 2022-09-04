@@ -11,13 +11,13 @@ namespace Ticket.ApplicationServices
 {
     public interface ITicketAppService
     {
-        Task<List<ticket.Core.Ticket>> GetTicketsAsync();
+        Task<List<TicketDto>> GetTicketsAsync();
 
         Task<int> AddTicketAsync(TicketAddDto entity);
 
         Task DeleteTicketAsync(int ticketId);
 
-        Task<ticket.Core.Ticket> GetTicketByIdAsync(int ticketId);
+        Task<TicketDto> GetTicketByIdAsync(int ticketId);
 
         Task EditTicketAsync(int ticketId, TicketEditDto entity);
     }

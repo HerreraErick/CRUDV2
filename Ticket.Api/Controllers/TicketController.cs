@@ -19,25 +19,25 @@ namespace Ticket.Api.Controllers
 
         [HttpGet]
         [Route("GetAllPassengers")]
-        public async Task<IActionResult> GetAllTickets()
+        public async Task<IEnumerable<TicketDto>> GetAllTickets()
         {
-            List<ticket.Core.Ticket> tickets = await _ticketAppService.GetTicketsAsync();
+            List<TicketDto> tickets = await _ticketAppService.GetTicketsAsync();
             _logger.LogInformation("Total tickets retrieved: " + tickets?.Count);
-            return Ok(tickets);
+            return tickets;
         }
 
         [HttpGet]
         [Route("GetTicketById/{id:int}")]
-        public async Task<IActionResult> GetPassengerById([FromRoute] int id)
+        public async Task<TicketDto> GetPassengerById([FromRoute] int id)
         {
-            ticket.Core.Ticket ticket = await _ticketAppService.GetTicketByIdAsync(id);
+            TicketDto ticket = await _ticketAppService.GetTicketByIdAsync(id);
             if (ticket != null)
             {
                 _logger.LogInformation("Passenger found: " + ticket.Id);
-                return Ok(ticket);
+                return ticket;
             }
             _logger.LogInformation("Passenger not found");
-            return NotFound();
+            return null;
 
         }
 

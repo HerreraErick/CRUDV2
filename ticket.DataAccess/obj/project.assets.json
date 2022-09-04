@@ -1636,8 +1636,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "journey.Core": "1.0.0",
-          "passenger.Core": "1.0.0"
+          "ticket.Core": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Ticket.ApplicationServices.Shared.dll": {}

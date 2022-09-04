@@ -7,6 +7,8 @@ using System.Text;
 using System.Threading.Tasks;
 using ticket.DataAccess.Repositories;
 using Ticket.ApplicationServices.Shared.Ticket.DTOs;
+using Ticket.ApplicationServices.Journeys;
+using Ticket.ApplicationServices.Passengers;
 
 namespace Ticket.ApplicationServices
 {
@@ -14,18 +16,29 @@ namespace Ticket.ApplicationServices
     {
         private readonly IMapper _mapper;
         private readonly IRepository<int, ticket.Core.Ticket> _repository;
+        private readonly IJourneysAppService _journeysAppService;
+        private readonly IPassengersAppService _passengersAppService;
 
-        public TicketAppService(IRepository<int, ticket.Core.Ticket> repository, IMapper mapper)
+        public TicketAppService(IRepository<int, ticket.Core.Ticket> repository, IMapper mapper, IPassengersAppService passengersAppService, IJourneysAppService journeysAppService)
         {
             _mapper = mapper;
             _repository = repository;
+            _passengersAppService = passengersAppService;
+            _journeysAppService = journeysAppService;
         }
 
         public async Task<int> AddTicketAsync(TicketAddDto entity)
         {
             var ticket = _mapper.Map<ticket.Core.Ticket>(entity);
-            await _repository.AddAsync(ticket);
-            return ticket.Id;
+            var passenger = await _passengersAppService.GetPassenger(ticket.PassengerId);
+            var journey = await _journeysAppService.GetJourney(ticket.JourneyId);
+            if(passenger != null && journey != null)
+            {
+                await _repository.AddAsync(ticket);
+                return ticket.Id;
+            }
+            return 0;
+            
         }
 
         public async Task DeleteTicketAsync(int ticketId)
@@ -35,19 +48,27 @@ namespace Ticket.ApplicationServices
 
         public async Task EditTicketAsync(int ticketId, TicketEditDto entity)
         {
-            var ticket = await GetTicketByIdAsync(ticketId);
+            var ticket = await _repository.GetAsync(ticketId);
             var update = _mapper.Map<TicketEditDto, ticket.Core.Ticket>(entity, ticket);
             await _repository.UpdateAsync(update);
         }
 
-        public async Task<ticket.Core.Ticket> GetTicketByIdAsync(int ticketId)
+        public async Task<TicketDto> GetTicketByIdAsync(int ticketId)
         {
-            return await _repository.GetAsync(ticketId);
+            var ticket = await _repository.GetAsync(ticketId);
+            var passenger = await _passengersAppService.GetPassenger(ticket.PassengerId);
+            var journey = await _journeysAppService.GetJourney(ticket.JourneyId);
+            TicketDto dto = _mapper.Map<TicketDto>(ticket);
+            dto.Journey = journey;
+            dto.Passenger = passenger;
+            return dto;
         }
 
-        public async Task<List<ticket.Core.Ticket>> GetTicketsAsync()
+        public async Task<List<TicketDto>> GetTicketsAsync()
         {
-            return await _repository.GetAll().ToListAsync();
+            var tickets = await _repository.GetAll().ToListAsync();
+            var list = _mapper.Map<List<TicketDto>>(tickets);
+            return list;
         }
     }
 }

@@ -1233,6 +1233,20 @@
         "runtime": {
           "bin/placeholder/passenger.Core.dll": {}
         }
+      },
+      "ticket.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "journey.Core": "1.0.0",
+          "passenger.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ticket.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ticket.Core.dll": {}
+        }
       }
     }
   },
@@ -4083,12 +4097,16 @@
       "type": "project",
       "path": "../passenger.Core/passenger.Core.csproj",
       "msbuildProject": "../passenger.Core/passenger.Core.csproj"
+    },
+    "ticket.Core/1.0.0": {
+      "type": "project",
+      "path": "../ticket.Core/ticket.Core.csproj",
+      "msbuildProject": "../ticket.Core/ticket.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "journey.Core >= 1.0.0",
-      "passenger.Core >= 1.0.0"
+      "ticket.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4118,11 +4136,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.Core\\journey.Core.csproj": {
-              "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\journey.Core\\journey.Core.csproj"
-            },
-            "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\passenger.Core\\passenger.Core.csproj": {
-              "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\passenger.Core\\passenger.Core.csproj"
+            "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\ticket.Core\\ticket.Core.csproj": {
+              "projectPath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\ticket.Core\\ticket.Core.csproj"
             }
           }
         }

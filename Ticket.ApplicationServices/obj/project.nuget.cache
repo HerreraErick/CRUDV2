@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uWABnsaM5cAUaEBEFVklJArf8BzJ0vsEP2zcQo6IGxZ7PHzAeusSGCZ8Bx4M4VtYpcbJFm04WQzHiB36wcdTlQ==",
+  "dgSpecHash": "IsBkGX3du3w9sIEka7m5Kzd6VvZm7/S/8Rv7/DlqihfB7ucRKSJuA3lMUV+ta/7atEx6b0MjaQcngRKlWtC65A==",
   "success": true,
   "projectFilePath": "C:\\Users\\pelon\\Documents\\Curso .NET\\DN_CRUDV2\\CRUDV2\\Ticket.ApplicationServices\\Ticket.ApplicationServices.csproj",
   "expectedPackageFiles": [
@@ -39,6 +39,7 @@
     "C:\\Users\\pelon\\.nuget\\packages\\microsoft.extensions.dependencymodel\\2.1.0\\microsoft.extensions.dependencymodel.2.1.0.nupkg.sha512",
     "C:\\Users\\pelon\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\2.2.0\\microsoft.extensions.fileproviders.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\pelon\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\2.2.0\\microsoft.extensions.hosting.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\pelon\\.nuget\\packages\\microsoft.extensions.http\\6.0.0\\microsoft.extensions.http.6.0.0.nupkg.sha512",
     "C:\\Users\\pelon\\.nuget\\packages\\microsoft.extensions.identity.core\\6.0.8\\microsoft.extensions.identity.core.6.0.8.nupkg.sha512",
     "C:\\Users\\pelon\\.nuget\\packages\\microsoft.extensions.identity.stores\\6.0.8\\microsoft.extensions.identity.stores.6.0.8.nupkg.sha512",
     "C:\\Users\\pelon\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",

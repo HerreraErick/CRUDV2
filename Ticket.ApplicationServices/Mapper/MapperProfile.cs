@@ -14,6 +14,7 @@ namespace Ticket.ApplicationServices.Mapper
         {
             CreateMap<TicketAddDto, ticket.Core.Ticket>();
             CreateMap<TicketEditDto, ticket.Core.Ticket>();
+            CreateMap<ticket.Core.Ticket, TicketDto>();
         }
     }
 }
