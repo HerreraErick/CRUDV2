@@ -15,3 +15,5 @@ C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\Ticket.ApplicationServices.
 C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\Ticket.ApplicationServices.Shared\obj\Debug\net6.0\refint\Ticket.ApplicationServices.Shared.dll
 C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\Ticket.ApplicationServices.Shared\obj\Debug\net6.0\Ticket.ApplicationServices.Shared.pdb
 C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\Ticket.ApplicationServices.Shared\obj\Debug\net6.0\ref\Ticket.ApplicationServices.Shared.dll
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\Ticket.ApplicationServices.Shared\bin\Debug\net6.0\ticket.Core.dll
+C:\Users\pelon\Documents\Curso .NET\DN_CRUDV2\CRUDV2\Ticket.ApplicationServices.Shared\bin\Debug\net6.0\ticket.Core.pdb

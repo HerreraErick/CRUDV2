@@ -1005,8 +1005,7 @@
       },
       "Ticket.ApplicationServices.Shared/1.0.0": {
         "dependencies": {
-          "journey.Core": "1.0.0",
-          "passenger.Core": "1.0.0"
+          "ticket.Core": "1.0.0"
         },
         "runtime": {
           "Ticket.ApplicationServices.Shared.dll": {}

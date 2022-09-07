@@ -31,6 +31,7 @@ namespace Ticket.Api.Controllers
                 title: exceptionHandlderFeature.Error.Message);
         }
 
+        [Route("/error")]
         public IActionResult HandleError()
         {
             var exceptionHandlderFeature = HttpContext.Features.Get<IExceptionHandlerFeature>()!;

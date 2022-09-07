@@ -1,5 +1,5 @@
-﻿using journey.Core;
-using passenger.Core;
+﻿using ticket.Core.Journeys;
+using ticket.Core.Passengers;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;

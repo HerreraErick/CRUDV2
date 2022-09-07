@@ -9,7 +9,7 @@ using Passengers.ApplicationServices.Shared.Passenger.DTOs;
 namespace passenger.Api.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class PassengersController : Controller
     {
         private readonly IPassengerAppService _passengerAppService;

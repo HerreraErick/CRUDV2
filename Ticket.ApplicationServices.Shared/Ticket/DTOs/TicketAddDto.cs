@@ -4,8 +4,8 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using journey.Core;
-using passenger.Core;
+using ticket.Core.Journeys;
+using ticket.Core.Passengers;
 
 namespace Ticket.ApplicationServices.Shared.Ticket.DTOs
 {

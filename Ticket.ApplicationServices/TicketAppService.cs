@@ -9,6 +9,10 @@ using ticket.DataAccess.Repositories;
 using Ticket.ApplicationServices.Shared.Ticket.DTOs;
 using Ticket.ApplicationServices.Journeys;
 using Ticket.ApplicationServices.Passengers;
+using ticket.Core;
+using Microsoft.AspNetCore.Mvc;
+using AutoMapper.Internal;
+using Microsoft.AspNetCore.Mvc.ApiExplorer;
 
 namespace Ticket.ApplicationServices
 {
@@ -27,17 +31,30 @@ namespace Ticket.ApplicationServices
             _journeysAppService = journeysAppService;
         }
 
-        public async Task<int> AddTicketAsync(TicketAddDto entity)
+        public async Task<string> AddTicketAsync(TicketAddDto entity)
         {
-            var ticket = _mapper.Map<ticket.Core.Ticket>(entity);
+            ticket.Core.Ticket ticket = _mapper.Map<ticket.Core.Ticket>(entity);
             var passenger = await _passengersAppService.GetPassenger(ticket.PassengerId);
             var journey = await _journeysAppService.GetJourney(ticket.JourneyId);
-            if(passenger != null && journey != null)
+            /*if(passenger != null && journey != null)
             {
                 await _repository.AddAsync(ticket);
                 return ticket.Id;
+            }*/
+            if(passenger == null)
+            {
+
+                return "Passenger not found";
             }
-            return 0;
+            if(journey == null) {
+                return "Journey not found";
+            }
+            else
+            {
+                await _repository.AddAsync(ticket);
+                var id = ticket.Id.ToString();
+                return id;
+            }
             
         }
 

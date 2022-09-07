@@ -1,10 +1,13 @@
 using Microsoft.AspNetCore.Localization;
 using Microsoft.EntityFrameworkCore;
+using passenger.ApplicationServices;
 using Serilog;
 using System.Globalization;
 using ticket.DataAccess;
 using ticket.DataAccess.Repositories;
 using Ticket.ApplicationServices;
+using Ticket.ApplicationServices.Journeys;
+using Ticket.ApplicationServices.Passengers;
 using Ticket.ApplicationServices.Mapper;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -33,6 +36,8 @@ builder.Services.AddDbContext<TicketContext>(options =>
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 
 builder.Services.AddTransient<ITicketAppService, TicketAppService>();
+builder.Services.AddTransient<IPassengersAppService, PassengersAppService>();
+builder.Services.AddTransient<IJourneysAppService, JourneysAppService>();
 builder.Services.AddTransient<IRepository<int, ticket.Core.Ticket>, Repository<int, ticket.Core.Ticket>>();
 
 builder.Services.AddAutoMapper(typeof(MapperProfile));

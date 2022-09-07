@@ -5,7 +5,7 @@ using Ticket.ApplicationServices.Shared.Ticket.DTOs;
 namespace Ticket.Api.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class TicketController : Controller
     {
         private readonly ITicketAppService _ticketAppService;
@@ -28,7 +28,7 @@ namespace Ticket.Api.Controllers
 
         [HttpGet]
         [Route("GetTicketById/{id:int}")]
-        public async Task<TicketDto> GetPassengerById([FromRoute] int id)
+        public async Task<TicketDto> GetTicketById([FromRoute] int id)
         {
             TicketDto ticket = await _ticketAppService.GetTicketByIdAsync(id);
             if (ticket != null)
@@ -43,21 +43,21 @@ namespace Ticket.Api.Controllers
 
         [HttpPost]
         [Route("CreateTicket")]
-        public async Task<IActionResult> CreateTicket(TicketAddDto entity)
+        public async Task<bool> CreateTicket(TicketAddDto entity)
         {
             if (entity != null)
             {
                 await _ticketAppService.AddTicketAsync(entity);
                 _logger.LogInformation("Ticket created" + entity);
 
-                return Ok(entity);
+                return true;
             }
-            return BadRequest();
+            return false;
         }
 
         [HttpPut]
         [Route("EditTicket/{id:int}")]
-        public async Task<IActionResult> EditTicket([FromRoute] int id, TicketEditDto entity)
+        public async Task<bool> EditTicket([FromRoute] int id, TicketEditDto entity)
         {
             var ticket = await _ticketAppService.GetTicketByIdAsync(id);
             if (ticket != null)
@@ -65,25 +65,25 @@ namespace Ticket.Api.Controllers
                 await _ticketAppService.EditTicketAsync(id, entity);
                 _logger.LogInformation("Ticket updated" + entity);
 
-                return Ok(entity);
+                return true;
             }
             _logger.LogInformation("Ticket not found");
-            return NotFound();
+            return false;
         }
 
         [HttpDelete]
         [Route("DeleteTicket/{id:int}")]
-        public async Task<IActionResult> DeleteTicket([FromRoute] int id)
+        public async Task<bool> DeleteTicket([FromRoute] int id)
         {
             if(id != 0)
             {
                 await _ticketAppService.DeleteTicketAsync(id);
                 _logger.LogInformation("Ticket deleted");
 
-                return Ok();
+                return true;
             }
             _logger.LogInformation("Ticket not found");
-            return NotFound();
+            return false;
         }
 
 

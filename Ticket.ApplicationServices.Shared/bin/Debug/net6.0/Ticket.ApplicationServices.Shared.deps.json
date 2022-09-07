@@ -8,8 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "Ticket.ApplicationServices.Shared/1.0.0": {
         "dependencies": {
-          "journey.Core": "1.0.0",
-          "passenger.Core": "1.0.0"
+          "ticket.Core": "1.0.0"
         },
         "runtime": {
           "Ticket.ApplicationServices.Shared.dll": {}
@@ -748,6 +747,15 @@
         "runtime": {
           "passenger.Core.dll": {}
         }
+      },
+      "ticket.Core/1.0.0": {
+        "dependencies": {
+          "journey.Core": "1.0.0",
+          "passenger.Core": "1.0.0"
+        },
+        "runtime": {
+          "ticket.Core.dll": {}
+        }
       }
     }
   },
@@ -1274,6 +1282,11 @@
       "sha512": ""
     },
     "passenger.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ticket.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

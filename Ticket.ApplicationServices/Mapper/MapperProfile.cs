@@ -12,9 +12,24 @@ namespace Ticket.ApplicationServices.Mapper
     {
         public MapperProfile()
         {
-            CreateMap<TicketAddDto, ticket.Core.Ticket>();
-            CreateMap<TicketEditDto, ticket.Core.Ticket>();
-            CreateMap<ticket.Core.Ticket, TicketDto>();
+            CreateMap<ticket.Core.Ticket, TicketDto>().ReverseMap()
+                .ForMember(d => d.JourneyId, o => o.MapFrom(s => s.Journey))
+                .ForMember(d => d.PassengerId, o => o.MapFrom(s => s.Passenger));
+
+            CreateMap<int, ticket.Core.Ticket> ()
+                .ForMember(dest => dest.JourneyId, opts => opts.MapFrom(src => src));
+
+            CreateMap<int, ticket.Core.Ticket>()
+                .ForMember(dest => dest.PassengerId, opts => opts.MapFrom(src => src));
+
+            CreateMap<TicketAddDto, ticket.Core.Ticket>()
+                .ForMember(d => d.JourneyId, o => o.MapFrom(s => s.JourneyId))
+                .ForMember(d => d.PassengerId, o => o.MapFrom(s => s.PassengerId));
+
+            CreateMap<TicketEditDto, ticket.Core.Ticket>()
+                .ForMember(d => d.JourneyId, o => o.MapFrom(s => s.JourneyId))
+                .ForMember(d => d.PassengerId, o => o.MapFrom(s => s.PassengerId));
+
         }
     }
 }

@@ -8,7 +8,7 @@ using Journey.ApplicationServices.Shared.Journey.DTOs;
 namespace journey.Api.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class JourneysController : Controller
     {
         private readonly IJourneyAppService _journeyAppService;
